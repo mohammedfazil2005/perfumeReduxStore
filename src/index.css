@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+body{
+  background: linear-gradient(rgb(202, 243, 215) 0%, rgb(202, 243, 215) 100%);
+
+
+}

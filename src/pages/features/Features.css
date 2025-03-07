@@ -1,0 +1,41 @@
+.features-parent{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+    align-items: center;
+}
+.left-feautures h1{
+    font-size: 500px;
+}
+.animated-div-fe{
+    overflow: hidden;
+}
+.animated-div-fe img{
+    position: absolute;
+    width:500px;
+    top: 570px;
+    transform: rotate(30deg);
+    opacity: 0.6;
+}
+.right-feautures{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+@media screen and (max-width:916px) {
+   .features-parent{
+    flex-direction: column;
+    margin-top: 100px;
+   }
+   .animated-div-fe img{
+    top: 450px;
+    width: 450px;
+   }
+   .right-feautures{
+    width: 100% ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+}

@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.header h1{
+    font-size: 400px;
+    font-weight: bold;
+  
+   
+}
+
+@media screen and (max-width:1225px) {
+    .header h1{
+        font-size: 300px;
+    }
+}
+
+@media screen and (max-width:919px) {
+    .header h1{
+        font-size: 200px;
+    }
+}
+
+@media screen and (max-width:608px) {
+    .header h1{
+        font-size: 150px;
+    }
+}

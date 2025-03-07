@@ -1,0 +1,30 @@
+.frag-animation-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.frag-animation-div img{
+    width:500px;
+    position: absolute;
+    top: 50px;
+    transform: rotate(30deg) ;
+    animation: heading-rotate alternate infinite 2s;
+    
+}
+
+@keyframes  heading-rotate {
+    from{
+        transform: translateY(0px) rotate(30deg);
+    }
+    to{
+        transform: translateY(-20px) rotate(30deg);
+    }
+}
+
+
+@media screen and (max-width:1225px) {
+   .frag-animation-div img{
+    width: 350px;
+   }
+}

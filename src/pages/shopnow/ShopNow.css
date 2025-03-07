@@ -1,0 +1,63 @@
+.shopnow-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 60px;
+}
+.shopnow-details-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.shopnow-details-div h1{
+    font-size: 60px;
+
+}
+
+.shopnow-details-div button{
+    width: 350px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(3, 69, 3, 0.627);
+    color: white;
+    font-size: 17px;
+}
+
+@media screen and (max-width:1210px) {
+    .shopnow-parent{
+        margin: 0px 30px;
+    }
+}
+
+
+
+@media screen and (max-width:1140px ) {
+    .shopnow-parent{
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width:1108px ) {
+    .shopnow-details-div h1{
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width:968px ) {
+    .shopnow-details-div h1{
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    .shopnow-parent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+    }
+    .shopnow-details-div h1{
+        font-size: 40px;
+    }
+}
