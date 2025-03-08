@@ -27,24 +27,24 @@
 }
 
 @media screen and (max-width:1118px) {
+    .features3-parent{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 20px;
+    }
     .features-3-img-div{
         margin-left: -350px;
+        display: none;
     }
-}
-
-@media screen and (max-width:723px) {
     .features3-details{
-        margin: 0px 0px;
+      margin: 0px;
         width: 100%;
     }
 }
 
-@media screen and (max-width:554px) {
-    .features-3-img-div{
-        display: none;
-    }
-    .features3-details{
-        text-align: center;
-        margin: 0px 30px;
+
+@media screen and (max-width:513px) {
+    .features3-details h1{
+        font-size: 300px;
     }
 }
