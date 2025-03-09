@@ -95,3 +95,15 @@
 }
 }
 
+
+
+@media screen and (max-width:446px) {
+    .image-fe{
+        overflow: hidden;
+    }
+    .image-fe img{
+        width: 150px;
+        cursor: pointer;
+        transition: 0.6s;
+    }
+}

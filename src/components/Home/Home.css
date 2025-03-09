@@ -28,3 +28,9 @@
     width: 350px;
    }
 }
+
+@media screen and (max-width:480px) {
+    .frag-animation-div img{
+     width: 250px;
+    }
+ }
