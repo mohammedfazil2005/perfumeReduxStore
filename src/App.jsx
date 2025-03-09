@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar"
 import ProductView from "./pages/productViewPage/ProductView"
 import CartPage from "./pages/cartPage/CartPage"
 import { Toaster } from "react-hot-toast"
+import Footer from "./components/Footer/Footer"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/view" element={<ProductView/>}/>
       <Route path="/cart" element={<CartPage/>}/>
     </Routes>
+    <Footer/>
     </>
   )
 }

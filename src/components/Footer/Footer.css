@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px;
+}
+.footer-left h1{
+    font-weight: bold;
+}
+.footer-left p{
+    font-weight: 500;
+    color: darkgreen;
+}
+
+.footer-right{
+    display: flex;
+    gap: 20px;
+  
+}
+
+
+.footer-right div p{
+    font-size:23px;
+}

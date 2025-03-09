@@ -12,9 +12,9 @@
 }
 .animated-div-fe img{
     position: absolute;
-    width:500px;
+    width:520px;
     top: 570px;
-    transform: rotate(30deg);
+    transform: rotate(40deg);
     opacity: 0.6;
 }
 .right-feautures{

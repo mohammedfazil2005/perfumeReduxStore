@@ -25,6 +25,9 @@
     color: white;
     font-size: 17px;
 }
+.shopnow-details-div button:hover{
+    background-color: rgba(0, 100, 0, 0.762);
+}
 
 @media screen and (max-width:1210px) {
     .shopnow-parent{

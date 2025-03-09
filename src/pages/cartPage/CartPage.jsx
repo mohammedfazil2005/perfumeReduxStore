@@ -42,6 +42,22 @@ const CartPage = () => {
        }
     }
 
+    const cartRemoveItem=(item)=>{
+      dispatch(removeCart(item))
+      toast.success('Item removed from the cart!.', {
+        style: {
+          border: '1px solid green',
+          padding: '16px',
+          color: 'green',
+        },
+        iconTheme: {
+          primary: 'green',
+          secondary: 'white',
+        }})
+      
+      
+    }
+
     useEffect(()=>{
         setTotal(cartData.reduce((a,b)=>a+b['totalPrice'],0))
     },[cartData])
@@ -67,7 +83,7 @@ const CartPage = () => {
               <button onClick={()=>dispatch(increaseCart(a))}>+</button>
            </div>
            <h2>{a.totalPrice}</h2>
-           <button style={{backgroundColor:'transparent',border:'none'}} onClick={()=>dispatch(removeCart(a))}>x</button>
+           <button style={{backgroundColor:'transparent',border:'none'}} onClick={()=>cartRemoveItem(a)}>x</button>
          </div>
        
      )):<div className='flex justify-center items-center text-center'>
@@ -82,6 +98,10 @@ const CartPage = () => {
           <h2>Give code</h2>
           <input type="text" className='form-control w-50' placeholder='Give code' />
           <hr />
+          {cartData?.length>0?cartData?.map((a)=>(
+             <h3>{a.name} <span>x</span> {a.quantity}</h3>
+          )):""}
+         
           <div>
               <p>Totalprice</p>
               <h6>₹{total}</h6>

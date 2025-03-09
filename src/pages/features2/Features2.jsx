@@ -29,9 +29,7 @@ const Features2 = () => {
                          <img key={index} src={a.image} onClick={()=>onHandleClick(a.id)} alt="" />
                     ))}
                 </div>
-                {/* <div className="leaf-div">
-                    <img src="https://cdn-imgs.dora.run/design/C8F8AFVYZsDIF4dsEv0uVr.png/w/4096/h/4096/format/webp?" alt="" />
-                </div> */}
+               
 
             </div>
         </div>

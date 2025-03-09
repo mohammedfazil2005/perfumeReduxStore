@@ -6,7 +6,7 @@ const Features = () => {
     <div className="left-feautures">
       <h1>01</h1>
       <div className="animated-div-fe">
-        <img src="https://www.pngplay.com/wp-content/uploads/2/Women-Perfume-Transparent-Image.png" alt="" />
+        <img src="https://png.pngtree.com/png-clipart/20230501/original/pngtree-perfume-white-texture-png-image_9129267.png" alt="" />
       </div>
     </div>
     <div className="right-feautures">

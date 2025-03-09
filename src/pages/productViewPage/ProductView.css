@@ -33,6 +33,9 @@
     background-color: rgba(0, 100, 0, 0.682);
     color: white;
 }
+#buynowbtn:active{
+    background-color: darkgreen;
+}
 .product-view-details h6{
     font-weight: 300;
     color: darkgreen;

@@ -74,6 +74,7 @@
 .right-cart div{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 .right-cart div h6{
     font-weight: bold;
@@ -89,6 +90,10 @@
     background-color: green;
    height: 500px;
 
+}
+
+.right-cart h3{
+    font-size: 15px;
 }
 
 @media screen and (max-width:965px) {

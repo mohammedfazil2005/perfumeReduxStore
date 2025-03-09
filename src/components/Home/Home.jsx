@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
     <div className='frag-animation-div'>
-        <img src="https://www.pngplay.com/wp-content/uploads/2/Women-Perfume-Transparent-Image.png" alt="" />
+        <img src="https://png.pngtree.com/png-clipart/20230506/original/pngtree-fragrance-transparent-mens-perfume-glass-bottle-png-image_9143321.png" alt="" />
     </div>
     <div>
         <Header/>
