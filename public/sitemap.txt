@@ -1,0 +1,2 @@
+https://perfume-redux-store.vercel.app/
+https://perfume-redux-store.vercel.app/cart
